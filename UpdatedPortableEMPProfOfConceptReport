@@ -1,0 +1,129 @@
+Updated Report on Portable EMP Proof of Concept
+
+Author: Pablo Chacon
+Date: 2022-12-21
+Summary
+
+The objective of this project was to construct a portable EMP-Jammer device capable of rebooting small to medium-sized units. Although the primary goal of rebooting devices was not achieved, the project yielded valuable insights into the effects of electromagnetic pulses on electronic devices and highlighted potential vulnerabilities.
+Introduction
+
+An electromagnetic pulse (EMP), also referred to as a transient electromagnetic disturbance (TED), is a brief burst of electromagnetic energy. EMPs can be natural or artificial, occurring as electromagnetic fields, electric fields, magnetic fields, or conducted electric currents. The electromagnetic interference caused by an EMP can disrupt communications and damage electronic equipment. For instance, a lightning strike can physically damage buildings and aircraft. The management of EMP effects is a branch of electromagnetic compatibility (EMC) engineering.
+Purpose
+
+This project is for educational purposes only. The aim was to construct a cheap EMP-Jammer using readily available products to force a device reboot, and to learn more about EMPs, hardware integration, and potential threats posed by EMPs. The total cost of the project was approximately 100 EUR.
+
+Disclaimer: I am not responsible for any attempts to construct or use a similar device, nor for any related injury, death, or damage to hardware or software.
+Overview
+
+    Constructed EMP-Jammer: Succeeded
+    Reboot a device using EMP-Jammer: Failed
+
+Outcomes:
+
+    Ability to integrate directly with touchscreens without physical contact.
+    Ability to cause a device to be blocked from the network due to UDP overflow.
+
+Materials Used
+
+    Coil: 2 mm coated copper wire
+    AC/DC step-up: Generates 900,000 V
+    Battery Packs:
+        First try: 4 × 1.5 V 1500 mAh ion batteries
+        Second try: 4 × 1.5 V 2300 mAh ion batteries
+    On/Off switch
+    Push button switch
+    Hard case for electronics
+    Soldering station
+    Plastic straps
+    Hot glue
+
+Construction Steps
+
+    Prepare the Housing:
+        Make holes in the hard case for the coil, on/off switch, and push button trigger.
+
+    Coil Construction:
+        Wrap the copper wire into a circular-shaped coil.
+        Connect one cable to one end of the coil and glue the connection to the side of the step-up unit.
+        Repeat the process with the other end, ensuring a 2-3 mm gap between the ends.
+
+    Assembly:
+        Use hot glue to construct a cover over the spark gap.
+        Connect the AC/DC step-up unit to the switches.
+        Connect the battery pack to the switches.
+        Assemble all components inside the PVC pipe or other non-conductive casing.
+
+    Final Adjustments:
+        Secure all connections and ensure proper insulation and shielding.
+
+Safety Precautions
+
+    Always unplug the power source during construction.
+    Use insulated tools and wear protective gear.
+    Conduct tests in a controlled environment, isolated from other electronic devices.
+
+Fully Functional Device
+
+Invisible Finger Prototype:
+
+    Demonstrated ability to interact with a smartphone touchscreen without direct contact.
+    Observed unintended network disruption due to UDP overflow during EMP exposure.
+
+Phone: Samsung Galaxy S9
+Router: TP-Link Archer
+Experimental Results and Observations
+
+    Integration with Touchscreens: Successfully opened different apps on the smartphone.
+    Network Disruption: The TP-Link Archer router blacklisted the device due to UDP overflow caused by excessive QUIC-protocol packets during EMP exposure.
+
+Analysis and Discussion
+
+Rebooting Devices:
+
+    The primary goal of rebooting a device using the EMP-Jammer was not achieved.
+    EMP effects on electronic devices were observed, including interactions with touchscreens and network disruptions.
+
+Potential Impact:
+
+    Disruption of Communication: An EMP could cause immediate disruption of electronic devices, including critical infrastructure like IMSI towers.
+    Equipment Damage: High-voltage spikes can damage sensitive electronic components, potentially causing permanent failure.
+    Public Safety Risks: Disruption of communication services can pose significant risks, especially if emergency calls and services are affected.
+
+Design Considerations
+
+    High-Voltage Capacitors:
+        Use 220 pF, 15 kV ceramic capacitors.
+        Connect capacitors in parallel to increase total capacitance.
+
+    Step-Up Transformer:
+        Capable of boosting 9V to 15 kV.
+
+    Battery Pack:
+        Use a battery pack of 6 × 1.5V batteries providing 9V total.
+
+    Coil/Inductor:
+        Tightly wound copper coil, placed at the focal point of the parabolic reflector.
+
+    Spark Gap:
+        Adjustable spark gap to control the discharge of the capacitors through the coil.
+
+    Pulse Generator:
+        Microcontroller (e.g., Raspberry Pi Pico H) to control the timing and duration of the capacitor discharge.
+
+    Reflector:
+        Construct a parabolic reflector using aluminum sheets from soda cans and a steel thread frame.
+        Ensure the inner surface is smooth and clean for effective reflection.
+
+Safety and Ethical Considerations
+
+    High Voltage Handling: Always handle high-voltage components with extreme care and proper insulation.
+    Controlled Testing Environment: Conduct tests in an isolated environment to prevent unintended interference.
+    Ethical Responsibility: Ensure research is conducted ethically, with proper authorization and within legal guidelines.
+
+Conclusion
+
+The project demonstrated the potential of EMP technology to disrupt electronic devices and highlighted significant security concerns. The findings emphasize the need for enhanced protective measures and security standards for critical infrastructure. Further research and responsible disclosure can contribute to improving the resilience of electronic systems against EMP threats.
+References
+
+    EMP Generator High Voltage Generator | How to Make a Handheld EMP Jammer
+    What are high-frequency electromagnetic fields?
