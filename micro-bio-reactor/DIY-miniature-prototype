@@ -1,0 +1,78 @@
+Disclaimer
+
+This guide is provided for informational and educational purposes only. By using this guide, you acknowledge and agree to the following:
+
+No Liability: The author, publisher, or any associated parties shall not be held liable for any damages, injuries, losses, or mishaps arising from the use or misuse of this guide, including but not limited to personal injury, property damage, or environmental harm.
+
+Safety First: The construction and operation of a biomass reactor involve risks, including fire, explosion, and exposure to hazardous materials. Always prioritize safety, use proper protective equipment, and comply with local laws and regulations.
+
+No Guarantees: This guide is intended as a conceptual framework and does not guarantee the successful construction or operation of a biomass reactor. Results may vary based on materials, skill level, and adherence to the guide.
+
+Your Responsibility: By proceeding, you accept full responsibility for any actions taken based on this guide. You agree to assess the risks and ensure proper precautions are in place before undertaking any related activities.
+
+In short: You're on your own. Play safe, be smart, and don't blame us if things go sideways!
+
+
+
+DIY Guide for a Miniature Prototype
+Materials Required
+
+    Small metal cylinder (e.g., steel or aluminum pipe).
+    Biomass pellets or compressed organic fuel.
+    High-temperature ceramic insulation.
+    Small piston assembly or linear actuator.
+    Air intake valve (manually adjustable or small electric fan).
+    Exhaust pipe or tubing.
+    Cooling fins or small water-cooling setup.
+    Ignition system (e.g., piezoelectric igniter or spark plug).
+    Small dynamo or mechanical energy capture system (optional for energy demonstration).
+
+Tools Required
+
+    Drill and bits.
+    Welding equipment or strong heat-resistant adhesive.
+    Heat-resistant gloves and safety goggles.
+    Screwdrivers, pliers, and a saw.
+
+Step-by-Step Construction
+Step 1: Build the Combustion Chamber
+
+    Cut the metal cylinder to the desired size (e.g., 10-15 cm for a prototype).
+    Line the inside of the cylinder with high-temperature ceramic insulation.
+    Install the piston assembly at one end of the cylinder, ensuring a tight seal.
+
+Step 2: Add Air Intake and Exhaust
+
+    Drill two holes near opposite ends of the cylinder:
+        One for the air intake near the bottom.
+        One for the exhaust near the top.
+    Attach intake and exhaust tubes, securing them with welding or adhesive.
+
+Step 3: Install Ignition System
+
+    Mount the ignition system (e.g., spark plug) into a hole drilled into the combustion chamber.
+    Connect the ignition system to a manual or automated control circuit.
+
+Step 4: Add Cooling System
+
+    Attach cooling fins or a small water-cooling system around the combustion chamber.
+    Ensure proper heat dissipation to maintain operational stability.
+
+Step 5: Energy Conversion Mechanism
+
+    Connect the piston assembly to a small crankshaft or linear actuator.
+    Attach the crankshaft to a dynamo or similar system to demonstrate energy conversion.
+
+Step 6: Test and Refine
+
+    Load a small amount of biomass fuel into the chamber.
+    Ignite the fuel and observe the piston’s motion.
+    Adjust the air intake and exhaust for optimal combustion.
+
+Safety Precautions
+
+    Always operate in a well-ventilated area to avoid carbon monoxide buildup.
+    Wear appropriate safety gear, including gloves and goggles.
+    Handle the prototype with care, especially during ignition and combustion.
+
+This step-by-step guide is designed for experimentation and proof-of-concept purposes. Scaling the design for practical use requires addressing challenges like heat management, material durability, and efficiency optimization.
