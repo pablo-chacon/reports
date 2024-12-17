@@ -1,5 +1,6 @@
 # reports
 This reports is my personal sanity checks. 
+Open source for educational purposes and inspiration only.
 
 They are technical, statistical and philosophical "investigations". Regarding random subjects.
 
